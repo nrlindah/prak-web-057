@@ -4,9 +4,9 @@ namespace app\controllers;
 
 class MahasiswaController extends \yii\web\Controller
 {
-    public function actionProfil()
+    public function actionMahasiswaDropOut()
     {
-        return $this->render('profil');
+        return $this->render('mahasiswa-drop-out');
     }
 
 }
